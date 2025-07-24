@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Higher Level Maths - Formulas & Examples</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      color: #222;
+      margin: 0;
+      padding: 0 1em;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-weight: normal;
+    }
+    section {
+      margin: 2em 0;
+    }
+    h2 {
+      border-bottom: 2px solid #004080;
+      padding-bottom: 0.2em;
+      color: #004080;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      background: white;
+      margin: 0.5em 0;
+      padding: 1em;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 1.1em;
+    }
+    .example {
+      margin-top: 0.5em;
+      background: #e8f0fe;
+      padding: 0.7em;
+      border-left: 4px solid #00509e;
+      font-style: italic;
+      font-size: 0.95em;
+    }
+    footer {
+      text-align: center;
+      margin: 3em 0 1em 0;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Higher Level Maths - Important Formulas with Examples</h1>
+    <p>Your quick reference guide for Leaving Cert Higher Level Maths</p>
+  </header>
+
+  <section>
+    <h2>Algebra</h2>
+    <ul>
+      <li>
+        <div>Expansion of a binomial square:</div>
+        \[
+          (a + b)^2 = a^2 + 2ab + b^2
+        \]
+        <div class="example">
+          Example: Expand \( (x + 3)^2 \)<br>
+          <strong>Answer:</strong> \( x^2 + 6x + 9 \)
+        </div>
+      </li>
+      <li>
+        <div>Difference of squares:</div>
+        \[
+          a^2 - b^2 = (a - b)(a + b)
+        \]
+        <div class="example">
+          Example: Factorise \( x^2 - 16 \)<br>
+          <strong>Answer:</strong> \( (x - 4)(x + 4) \)
+        </div>
+      </li>
+      <li>
+        <div>Quadratic formula:</div>
+        \[
+          x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+        \]
+        <div class="example">
+          Example: Solve \( 2x^2 + 3x - 2 = 0 \)<br>
+          <strong>Answer:</strong> \( x = 0.5 \) or \( x = -2 \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Trigonometry</h2>
+    <ul>
+      <li>
+        <div>Pythagorean identity:</div>
+        \[
+          \sin^2 \theta + \cos^2 \theta = 1
+        \]
+        <div class="example">
+          Example: If \( \sin \theta = 0.6 \), find \( \cos \theta \)<br>
+          <strong>Answer:</strong> \( 0.8 \)
+        </div>
+      </li>
+      <li>
+        <div>Sine addition formula:</div>
+        \[
+          \sin(A \pm B) = \sin A \cos B \pm \cos A \sin B
+        \]
+        <div class="example">
+          Example: Calculate \( \sin 75^\circ \)<br>
+          <strong>Answer:</strong> \( \approx 0.9659 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of triangle:</div>
+        \[
+          \text{Area} = \frac{1}{2} ab \sin C
+        \]
+        <div class="example">
+          Example: \( a=7, b=9, C=60^\circ \)<br>
+          <strong>Answer:</strong> \( 27.27 \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Calculus</h2>
+    <ul>
+      <li>
+        <div>Derivative power rule:</div>
+        \[
+          \frac{d}{dx} x^n = n x^{n-1}
+        \]
+        <div class="example">
+          Example: \( \frac{d}{dx} x^5 = 5x^4 \)
+        </div>
+      </li>
+      <li>
+        <div>Integral power rule:</div>
+        \[
+          \int x^n \, dx = \frac{x^{n+1}}{n+1} + C
+        \]
+        <div class="example">
+          Example: \( \int x^3 \, dx = \frac{x^4}{4} + C \)
+        </div>
+      </li>
+      <li>
+        <div>Derivative of sine:</div>
+        \[
+          \frac{d}{dx} \sin x = \cos x
+        \]
+        <div class="example">
+          Example: \( \frac{d}{dx} \sin x = \cos x \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Coordinate Geometry</h2>
+    <ul>
+      <li>
+        <div>Slope (gradient):</div>
+        \[
+          m = \frac{y_2 - y_1}{x_2 - x_1}
+        \]
+        <div class="example">
+          Example: Between \( (2, 3) \) and \( (5, 11) \): \( m = \frac{8}{3} \)
+        </div>
+      </li>
+      <li>
+        <div>Equation of a line:</div>
+        \[
+          y - y_1 = m (x - x_1)
+        \]
+        <div class="example">
+          Example: Through \( (2, 3) \) with slope \( \frac{8}{3} \)<br>
+          \( y - 3 = \frac{8}{3}(x - 2) \)
+        </div>
+      </li>
+      <li>
+        <div>Distance formula:</div>
+        \[
+          d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+        \]
+        <div class="example">
+          Example: Between \( (2, 3) \) and \( (5, 11) \): \( d \approx 8.54 \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>More Important Formulas</h2>
+    <ul>
+      <li>
+        <div>Equation of a circle:</div>
+        \[
+          (x - h)^2 + (y - k)^2 = r^2
+        \]
+        <div class="example">
+          Circle centred at \( (3, -2) \) with radius 5:<br>
+          \( (x - 3)^2 + (y + 2)^2 = 25 \)
+        </div>
+      </li>
+      <li>
+        <div>Sum of an arithmetic series:</div>
+        \[
+          S_n = \frac{n}{2} (2a + (n-1)d)
+        \]
+        <div class="example">
+          First term \( a=3 \), common difference \( d=2 \), sum of first 5 terms:<br>
+          \( S_5 = 35 \)
+        </div>
+      </li>
+      <li>
+        <div>Sum of a geometric series:</div>
+        \[
+          S_n = a \frac{1 - r^n}{1 - r} \quad (r \neq 1)
+        \]
+        <div class="example">
+          \( a=2 \), \( r=3 \), sum of first 4 terms:<br>
+          \( S_4 = 80 \)
+        </div>
+      </li>
+      <li>
+        <div>Logarithm definition:</div>
+        \[
+          y = \log_b x \quad \Longleftrightarrow \quad b^y = x
+        \]
+        <div class="example">
+          \( \log_2 8 = 3 \)
+        </div>
+      </li>
+      <li>
+        <div>Change of base formula:</div>
+        \[
+          \log_b a = \frac{\log_c a}{\log_c b}
+        \]
+        <div class="example">
+          Calculate \( \log_2 10 \) using natural logs:<br>
+          \( \approx 3.32 \)
+        </div>
+      </li>
+      <li>
+        <div>Vector magnitude:</div>
+        \[
+          |\mathbf{v}| = \sqrt{x^2 + y^2}
+        \]
+        <div class="example">
+          Vector \( \mathbf{v} = (3, 4) \): magnitude = 5
+        </div>
+      </li>
+      <li>
+        <div>Dot product:</div>
+        \[
+          \mathbf{a} \cdot \mathbf{b} = a_x b_x + a_y b_y
+        \]
+        <div class="example">
+          \( \mathbf{a} = (1, 2), \mathbf{b} = (3, 4) \)<br>
+          \( = 11 \)
+        </div>
+      </li>
+      <li>
+        <div>Circle arc length:</div>
+        \[
+          s = r \theta
+        \]
+        (where \( \theta \) in radians)<br>
+        <div class="example">
+          \( r=5 \), \( \theta = \frac{\pi}{3} \): \( s \approx 5.24 \)
+        </div>
+      </li>
+      <li>
+        <div>Circle sector area:</div>
+        \[
+          A = \frac{1}{2} r^2 \theta
+        \]
+        (where \( \theta \) in radians)<br>
+        <div class="example">
+          \( r=5 \), \( \theta = \frac{\pi}{3} \): \( A \approx 13.09 \)
+        </div>
+      </li>
+      <li>
+        <div>Binomial theorem (first 3 terms):</div>
+        \[
+          (a + b)^n \approx a^n + n a^{n-1} b + \frac{n(n-1)}{2} a^{n-2} b^2 + \dots
+        \]
+        <div class="example">
+          \( (x + 2)^3 = x^3 + 6x^2 + 12x + 8 \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Area &amp; Perimeter Formulas</h2>
+    <ul>
+      <li>
+        <div>Area of rectangle:</div>
+        \[
+          A = lw
+        \]
+        <div class="example">
+          Length \( l=5 \), width \( w=3 \): \( A = 15 \)
+        </div>
+      </li>
+      <li>
+        <div>Perimeter of rectangle:</div>
+        \[
+          P = 2(l + w)
+        \]
+        <div class="example">
+          Length \( l=5 \), width \( w=3 \): \( P = 16 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of square:</div>
+        \[
+          A = s^2
+        \]
+        <div class="example">
+          Side \( s=4 \): \( A = 16 \)
+        </div>
+      </li>
+      <li>
+        <div>Perimeter of square:</div>
+        \[
+          P = 4s
+        \]
+        <div class="example">
+          Side \( s=4 \): \( P = 16 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of triangle:</div>
+        \[
+          A = \frac{1}{2} b h
+        \]
+        <div class="example">
+          Base \( b=6 \), height \( h=4 \): \( A = 12 \)
+        </div>
+      </li>
+      <li>
+        <div>Perimeter of triangle:</div>
+        \[
+          P = a + b + c
+        \]
+        <div class="example">
+          Sides \( 3, 4, 5 \): \( P = 12 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of parallelogram:</div>
+        \[
+          A = b h
+        \]
+        <div class="example">
+          Base \( b=7 \), height \( h=3 \): \( A = 21 \)
+        </div>
+      </li>
+      <li>
+        <div>Perimeter of parallelogram:</div>
+        \[
+          P = 2(a + b)
+        \]
+        <div class="example">
+          Sides \( a=5 \), \( b=7 \): \( P = 24 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of trapezium:</div>
+        \[
+          A = \frac{1}{2} (a + b) h
+        \]
+        <div class="example">
+          Parallel sides \( a=4 \), \( b=6 \), height \( h=3 \): \( A = 15 \)
+        </div>
+      </li>
+      <li>
+        <div>Perimeter of trapezium:</div>
+        \[
+          P = a + b + c + d
+        \]
+        <div class="example">
+          Sides \( 4, 6, 3, 5 \): \( P = 18 \)
+        </div>
+      </li>
+      <li>
+        <div>Area of circle:</div>
+        \[
+          A = \pi r^2
+        \]
+        <div class="example">
+          Radius \( r=3 \): \( A \approx 28.27 \)
+        </div>
+      </li>
+      <li>
+        <div>Circumference of circle:</div>
+        \[
+          C = 2 \pi r
+        \]
+        <div class="example">
+          Radius \( r=3 \): \( C \approx 18.85 \)
+        </div>
+      </li>
+    </ul>
+  </section>
+
+<section>
+  <h2>Volume Formulas</h2>
+  <ul>
+    <li>
+      <div>Volume of cube:</div>
+      \[
+        V = s^3
+      \]
+      <div class="example">
+        Side \( s = 3 \): \( V = 27 \)
+      </div>
+    </li>
+    <li>
+      <div>Volume of cuboid:</div>
+      \[
+        V = l \times w \times h
+      \]
+      <div class="example">
+        \( l = 4, w = 3, h = 2 \): \( V = 24 \)
+      </div>
+    </li>
+    <li>
+      <div>Volume of cylinder:</div>
+      \[
+        V = \pi r^2 h
+      \]
+      <div class="example">
+        \( r = 2, h = 5 \): \( V \approx 62.83 \)
+      </div>
+    </li>
+    <li>
+      <div>Volume of cone:</div>
+      \[
+        V = \frac{1}{3} \pi r^2 h
+      \]
+      <div class="example">
+        \( r = 2, h = 6 \): \( V \approx 25.13 \)
+      </div>
+    </li>
+    <li>
+      <div>Volume of sphere:</div>
+      \[
+        V = \frac{4}{3} \pi r^3
+      \]
+      <div class="example">
+        \( r = 3 \): \( V \approx 113.1 \)
+      </div>
+    </li>
+    <li>
+      <div>Volume of hemisphere:</div>
+      \[
+        V = \frac{2}{3} \pi r^3
+      \]
+      <div class="example">
+        \( r = 3 \): \( V \approx 56.55 \)
+      </div>
+    </li>
+  </ul>
+</section>
+
+  <footer>
+    <p>Created by Joe | 2025</p>
+  </footer>
+
+</body>
+</html>
